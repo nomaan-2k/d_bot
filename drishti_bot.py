@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "put api key here"
 
 import pyttsx3
 import datetime
@@ -96,7 +96,7 @@ def getLocation():
 
 def getweather():
 
-    api_key = 'f2ced052823a56d97413fa43c66ba726'
+    api_key = 'openweather_api_key_here'
     lat = getLocation()[0]
     lon = getLocation()[1]
 
@@ -181,7 +181,7 @@ if __name__ =="__main__":
             flag=0
 
         elif 'play music' in query:
-            music_dir = 'D:\IMPORTANT\DRISHTI\d_bot\music'
+            music_dir = 'pathto\d_bot\music'
             songs = os.listdir(music_dir)
             print(songs)
             play =  random.choice(songs)   
