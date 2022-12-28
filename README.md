@@ -1,4 +1,4 @@
-# Drishti chatbot
+# Drishti Chatbot
 
 - install dependencies using drishti_bot.yml
 - make changes in drishti_bot.py according the absolutes paths of directories
