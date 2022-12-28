@@ -32,7 +32,7 @@ engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # for voice in voices:
 #     print(f"Voice: {voice.name}")
-engine.setProperty('voice',voices[3].id)
+engine.setProperty('voice',voices[1].id)
 
 
 
